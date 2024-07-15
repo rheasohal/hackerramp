@@ -1,0 +1,26 @@
+<!-- finder/templates/finder/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://logos-world.net/wp-content/uploads/2022/12/Myntra-Logo.png" height="50"></img>
+    <div class="container">
+        <h1>Bring Your Board To Life!</h1>
+        <form id="scrapeForm" action="{% url 'analyze_webpage' %}" method="post">
+            <label for="webpageLink">Enter Pinterest Board Link: </label>
+            <input type="url" name="webpageLink" id="webpageLinkInput" placeholder="Board URL">
+            <button type="submit">Recommend</button>
+        </form>
+        
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

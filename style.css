@@ -1,0 +1,78 @@
+body {
+    .bona-nova-sc-regular {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .bona-nova-sc-bold {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .bona-nova-sc-regular-italic {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+    background: url("https://i.pinimg.com/564x/b7/39/b7/b739b713825a3388a4e7869eae243232.jpg") no-repeat center center fixed;
+    background-size: cover;
+}   
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f0f0;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: rgb(244,28,178);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b31200;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
